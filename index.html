@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medoro — Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #fafafa;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
+        h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #e0e0e0; padding-bottom: 0.3rem; }
+        .subtitle { color: #666; font-size: 0.95rem; margin-bottom: 2rem; }
+        ul { padding-left: 1.5rem; }
+        li { margin-bottom: 0.4rem; }
+        .highlight { background: #e8f5e9; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; }
+        footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e0e0e0; color: #888; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <h1>Medoro Privacy Policy</h1>
+    <p class="subtitle">Effective date: 7 April 2026 &middot; Last updated: 7 April 2026</p>
+
+    <div class="highlight">
+        <strong>The short version:</strong> Medoro stores all your data on your device and nowhere else. We have no accounts, no servers that receive your data, and no way to see what you track. Your data is yours alone.
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>Medoro is developed by Aivenya, a business registered in Spring Hill, Queensland, Australia. When this policy says "we", "us", or "our", it refers to Aivenya.</p>
+
+    <h2>2. Data we collect</h2>
+    <p><strong>None.</strong> Medoro does not collect, transmit, or store any user data on external servers. All data you enter into Medoro — including mood logs, medication information, journal entries, and events — is stored exclusively on your device using a local database.</p>
+    <p>Specifically, we do <strong>not</strong> collect:</p>
+    <ul>
+        <li>Personal information (name, email, phone number)</li>
+        <li>Account credentials (there are no accounts)</li>
+        <li>Location data</li>
+        <li>Device identifiers or advertising IDs</li>
+        <li>Usage analytics or crash reports</li>
+        <li>Health data via Apple Health or Google Fit</li>
+    </ul>
+
+    <h2>3. Third-party AI services (optional)</h2>
+    <p>Medoro offers optional AI-powered insights using your own API key from Anthropic (Claude) or OpenAI (GPT). If you choose to enable this feature:</p>
+    <ul>
+        <li>Your API key is stored securely on your device using platform-native secure storage (Keychain on iOS, EncryptedSharedPreferences on Android)</li>
+        <li>AI requests are sent <strong>directly from your device</strong> to the AI provider — they never pass through our servers</li>
+        <li>You are subject to the AI provider's own privacy policy for those requests</li>
+        <li>You must provide explicit consent before this feature is activated</li>
+    </ul>
+    <p>The on-device AI option (Qwen 0.5B) processes everything locally and sends no data anywhere.</p>
+
+    <h2>4. Medication database updates</h2>
+    <p>Medoro includes a bundled medication database. Periodically, the app may download updated medication data from our content delivery network (CDN). These downloads:</p>
+    <ul>
+        <li>Contain only medication reference data (drug names, dosages, half-lives)</li>
+        <li>Are one-directional — data flows <strong>to</strong> your device only</li>
+        <li>Do not transmit any user data back to us</li>
+        <li>Standard web server logs (IP address, timestamp) may be generated but are not linked to any user identity and are automatically deleted</li>
+    </ul>
+
+    <h2>5. In-app purchases</h2>
+    <p>Medoro uses Apple's StoreKit and Google Play Billing for its one-time purchase. All payment processing is handled entirely by Apple or Google. We do not receive or store any payment information.</p>
+
+    <h2>6. Data storage and security</h2>
+    <ul>
+        <li>All user data is stored in a local SQLite database on your device</li>
+        <li>Sensitive data (API keys, app lock PIN) is stored using platform-native secure storage</li>
+        <li>Optional app lock (PIN, Face ID, fingerprint) provides an additional layer of protection</li>
+        <li>If you delete the app, all data is permanently removed from your device</li>
+    </ul>
+
+    <h2>7. Data export</h2>
+    <p>You can export your data at any time as PDF or CSV files. These exports are generated locally on your device. What you do with the exported files is your responsibility.</p>
+
+    <h2>8. Children's privacy</h2>
+    <p>Medoro is not intended for use by anyone under the age of 18. We do not knowingly collect data from children. Since we collect no data at all, this point is moot in practice.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>If we update this privacy policy, the revised version will be posted on this page with an updated "Last updated" date. Since we have no way to contact users (no accounts, no email addresses), we encourage you to review this page periodically.</p>
+
+    <h2>10. Contact us</h2>
+    <p>If you have questions about this privacy policy, you can reach us at:</p>
+    <p>
+        Aivenya<br>
+        Spring Hill, Queensland, Australia<br>
+        Email: <a href="mailto:privacy@aivenya.com">privacy@aivenya.com</a>
+    </p>
+
+    <footer>
+        <p>&copy; 2026 Aivenya. Medoro is a personal tracking tool, not a medical device. Always consult your doctor or psychiatrist before making changes to your medication.</p>
+    </footer>
+</body>
+</html>
